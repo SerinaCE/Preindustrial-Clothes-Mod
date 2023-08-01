@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+	<ThingStyleDef>
+		<defName>RoundShield_3SwirlDark</defName>
+		<overrideLabel>round shield</overrideLabel>
+		<graphicData>
+			<texPath>Apparel/Shield/Round/Round_3SwirlDark</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingStyleDef>
+	
+	<ThingStyleDef>
+		<defName>RoundShield_3SwirlWhite</defName>
+		<overrideLabel>round shield</overrideLabel>
+		<graphicData>
+			<texPath>Apparel/Shield/Round/Round_3SwirlWhite</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingStyleDef>
+	
+	<ThingStyleDef>
+		<defName>RoundShield_4SwirlDark</defName>
+		<overrideLabel>round shield</overrideLabel>
+		<graphicData>
+			<texPath>Apparel/Shield/Round/Round_4SwirlDark</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingStyleDef>
+	
+	<ThingStyleDef>
+		<defName>RoundShield_4SwirlWhite</defName>
+		<overrideLabel>round shield</overrideLabel>
+		<graphicData>
+			<texPath>Apparel/Shield/Round/Round_4SwirlWhite</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingStyleDef>
+	
+	<ThingStyleDef>
+		<defName>RoundShield_CrossDark</defName>
+		<overrideLabel>round shield</overrideLabel>
+		<graphicData>
+			<texPath>Apparel/Shield/Round/Round_CrossDark</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingStyleDef>
+	
+	<ThingStyleDef>
+		<defName>RoundShield_CrossWhite</defName>
+		<overrideLabel>round shield</overrideLabel>
+		<graphicData>
+			<texPath>Apparel/Shield/Round/Round_CrossWhite</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingStyleDef>
+	
+	<ThingStyleDef>
+		<defName>RoundShield_QuadrantDark</defName>
+		<overrideLabel>round shield</overrideLabel>
+		<graphicData>
+			<texPath>Apparel/Shield/Round/Round_QuadrantDark</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingStyleDef>
+	
+	<ThingStyleDef>
+		<defName>RoundShield_QuadrantWhite</defName>
+		<overrideLabel>round shield</overrideLabel>
+		<graphicData>
+			<texPath>Apparel/Shield/Round/Round_QuadrantWhite</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingStyleDef>
+
+</Defs>
