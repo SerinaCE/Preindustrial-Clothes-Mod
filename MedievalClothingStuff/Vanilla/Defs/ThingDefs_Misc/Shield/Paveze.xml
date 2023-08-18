@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<ThingDef ParentName="ShieldBase">
+		<defName>TC_PavezeShield</defName>
+		<label>paveze shield</label>
+		<description>Simple shield that can block simple projectiles and hits with melee weapons.</description>
+		<graphicData>
+			<texPath>Apparel/Shield/Paveze/Paveze_Plain</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<possessionCount>1</possessionCount>
+		<costList>
+			<WoodLog>100</WoodLog>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+			<recipeUsers>
+				<li>FueledSmithy</li>
+				<li>ElectricSmithy</li>
+			</recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>80000</WorkToMake>
+			<MaxHitPoints>160</MaxHitPoints>
+			<StuffEffectMultiplierArmor>1.5</StuffEffectMultiplierArmor>
+			<Mass>27</Mass>
+		</statBases>
+		<equippedStatOffsets>
+			<ReloadSpeed>-0.2</ReloadSpeed>
+			<MeleeHitChance>-4</MeleeHitChance>
+			<ShootingAccuracyPawn>-0.25</ShootingAccuracyPawn>
+			<AimingAccuracy>+0.1</AimingAccuracy>
+			<Suppressability>-0.15</Suppressability>
+			<MeleeCritChance>-0.2</MeleeCritChance>
+			<MeleeParryChance>1.0</MeleeParryChance>
+		</equippedStatOffsets>
+		<randomStyleChance>0.91</randomStyleChance>
+		<randomStyle>
+			<li>
+				<styleDef>PavezeShield_CE</styleDef>
+			</li>
+			<li>
+				<styleDef>PavezeShield_Checker</styleDef>
+			</li>
+			<li>
+				<styleDef>PavezeShield_Eagle</styleDef>
+			</li>
+			<li>
+				<styleDef>PavezeShield_GrillDark</styleDef>
+			</li>
+			<li>
+				<styleDef>PavezeShield_GrillWhite</styleDef>
+			</li>
+			<li>
+				<styleDef>PavezeShield_ShieldEmblem</styleDef>
+			</li>
+			<li>
+				<styleDef>PavezeShield_SlashWhite</styleDef>
+			</li>
+			<li>
+				<styleDef>PavezeShield_StripesWhite</styleDef>
+			</li>
+			<li>
+				<styleDef>PavezeShield_Sun</styleDef>
+			</li>
+			<li>
+				<styleDef>PavezeShield_UpWhite</styleDef>
+			</li>	
+		</randomStyle>
+		<apparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<tags>
+				<li>MedievalShield</li>
+			</tags>
+		</apparel>
+		<modExtensions>
+			<li Class="CombatExtended.ShieldDefExtension">
+				<shieldCoverage>
+					<li>Hands</li>
+					<li>Arms</li>
+					<li>Shoulders</li>
+					<li>Torso</li>
+					<li>Neck</li>
+					<li>FullHead</li>
+					<li>Legs</li>
+					<li>Feet</li>
+				</shieldCoverage>
+			</li>
+		</modExtensions>
+		<colorGenerator Class="ColorGenerator_StandardApparel"/>
+		<tradeTags>
+			<li>Armor</li>
+		</tradeTags>
+	</ThingDef>
+	
+</Defs>

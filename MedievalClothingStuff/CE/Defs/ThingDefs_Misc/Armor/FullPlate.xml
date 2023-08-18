@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="ArmorSmithableBase" Name="TC_PlateArmorBase">
+		<defName>TC_PlateArmor</defName>
+		<label>full plate armor</label>
+		<description>Plate armor colvering the whole body, with good ergonomics and with well articulated joints, top of the line protection.</description>
+		<graphicData>
+			<texPath>Apparel/Armor/PlateArmor/PlateArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>PlateArmor</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>9</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>200</costStuffCount>
+		<stuffCategories>
+			<li>Steeled</li>
+		</stuffCategories>
+		<equippedStatOffsets>
+			<MeleeDodgeChance>-0.15</MeleeDodgeChance>
+		</equippedStatOffsets>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<WorkToMake>50000</WorkToMake>
+			<Bulk>70</Bulk>
+			<WornBulk>6</WornBulk>
+			<Mass>18</Mass>
+			<StuffEffectMultiplierArmor>3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.12</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>10</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li>Hands</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/Armor/PlateArmor/PlateArmor</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>MedievalMilitary</li>
+				<li>MedievalArmorDecent</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">Royal</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier2</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<modExtensions>
+			<li Class="CombatExtended.PartialArmorExt">
+				<stats>
+					<li>
+						<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+						<parts>
+							<li>Neck</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+						<parts>
+							<li>Neck</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+						<parts>
+							<li>Leg</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Blunt>0.80</ArmorRating_Blunt>
+						<parts>
+							<li>Leg</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+						<parts>
+							<li>Arm</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+						<parts>
+							<li>Arm</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+						<parts>
+							<li>Hand</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+						<parts>
+							<li>Hand</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Sharp>0.70</ArmorRating_Sharp>
+						<parts>
+							<li>Foot</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Blunt>0.70</ArmorRating_Blunt>
+						<parts>
+							<li>Foot</li>
+						</parts>
+					</li>
+				</stats>
+			</li>
+		</modExtensions>
+		<tradeTags>
+			<li>Clothing</li>
+			<li>Armor</li>
+		</tradeTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="TC_PlateArmorBase">
+		<defName>TC_JuponPlate</defName>
+		<label>full plate armor (jupon)</label>
+		<description>Plate armor colvering the whole body, with good ergonomics and with well articulated joints, top of the line protection. Topped with a jupon.</description>
+		<graphicData>
+			<texPath>Apparel/Armor/PlateArmorJupon/PlateArmorJupon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<Cloth>30</Cloth>
+			<Silver>3</Silver>
+		</costList>
+		<statBases>
+			<WorkToMake>53000</WorkToMake>
+			<StuffEffectMultiplierArmor>3.3</StuffEffectMultiplierArmor>
+		</statBases>
+		<apparel>
+			<wornGraphicPath>Apparel/Armor/PlateArmorJupon/PlateArmorJupon</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+				<li>MedievalMilitary</li>
+				<li>MedievalArmorDecent</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">Royal</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier2</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier5</li>
+			</tags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" Inherit="False"/>
+	</ThingDef>
+	
+	<ThingDef ParentName="TC_PlateArmorBase">
+		<defName>TC_JuponPlatePrestige</defName>
+		<label>royal full plate armor</label>
+		<description>Plate armor colvering the whole body, with good ergonomics and with well articulated joints, top of the line protection, made for the highest ranking nobles. Topped with a gold embroided jupon.</description>
+		<graphicData>
+			<texPath>Apparel/Armor/PlateArmorJupon/PlateArmorJupon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<Cloth>30</Cloth>
+			<Gold>2</Gold>
+		</costList>
+		<statBases>
+			<WorkToMake>70000</WorkToMake>
+			<StuffEffectMultiplierArmor>3.3</StuffEffectMultiplierArmor>
+		</statBases>
+		<apparel>
+			<wornGraphicPath>Apparel/Armor/PlateArmorJuponPrestige/PlateArmorJuponPrestige</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+				<li>MedievalMilitary</li>
+				<li>MedievalArmorDecent</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">Royal</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier2</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier5</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier6</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier7</li>
+			</tags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" Inherit="False"/>
+	</ThingDef>
+	
+</Defs>

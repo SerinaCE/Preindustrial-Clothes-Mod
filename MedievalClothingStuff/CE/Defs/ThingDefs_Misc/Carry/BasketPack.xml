@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ==================== Basket Backpack ==================== -->
+
+  <ThingDef ParentName="ApparelCarryGearBase">
+    <defName>TC_BacketPack</defName>
+    <label>basket backpack</label>
+    <description>A large woven basket fashioned into a backpack, used by farmers all over. It does get in the way in a brawl.</description>
+    <techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Apparel/Carry/BasketPack/BasketPack</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>2.5</Mass>
+      <Bulk>8</Bulk>
+    </statBases>
+    <equippedStatOffsets>
+      <CarryBulk>40</CarryBulk>
+			<MeleeDodgeChance>-0.15</MeleeDodgeChance>
+    </equippedStatOffsets>
+    <costList>
+      <WoodLog>50</WoodLog>
+    </costList>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>HandTailoringBench</li>
+        <li>ElectricTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <apparel>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfDamaged>false</careIfDamaged>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Backpack</li>
+      </layers>
+      <tags>
+        <li>Neolithic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <wornGraphicPath>Apparel/Carry/BasketPack/BasketPack</wornGraphicPath>
+      <wornGraphicData>
+      <renderUtilityAsPack>true</renderUtilityAsPack>
+        <east>
+          <offset>(0,-0.05)</offset>
+          <thin><offset>(0.2,0)</offset></thin>
+          <hulk><offset>(0,0)</offset></hulk>
+          <fat><offset>(0,0)</offset></fat>
+          <male><offset>(0.125,0)</offset></male>
+          <female><offset>(0.125,0)</offset></female>	
+        </east>
+        <west>
+          <offset>(0,-0.05)</offset>
+          <thin><offset>(-0.2,0)</offset></thin>
+          <hulk><offset>(0,0)</offset></hulk>
+          <fat><offset>(0,0)</offset></fat>
+          <male><offset>(-0.125,0)</offset></male>
+          <female><offset>(-0.125,0)</offset></female>		  
+        </west>
+        <north>
+          <offset>(0,-0.1)</offset> 
+          <thin><offset>(0,0)</offset></thin>
+          <hulk><offset>(0,-0.05)</offset></hulk>
+          <fat><offset>(0,-0.05)</offset></fat>
+        </north>		
+          <male>  <scale>(1,1)</scale></male>
+          <female><scale>(1,1)</scale></female>
+          <thin>  <scale>(1,1)</scale></thin>
+          <hulk>  <scale>(1,1)</scale></hulk>
+          <fat>   <scale>(1,1)</scale></fat>
+      </wornGraphicData>
+    </apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
+
+</Defs>

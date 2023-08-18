@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+	<ThingStyleDef>
+		<defName>KiteShield_CrossDark</defName>
+		<overrideLabel>kite shield</overrideLabel>
+		<graphicData>
+			<texPath>Apparel/Shield/Kite/Kite_CrossDark</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingStyleDef>
+  
+	<ThingStyleDef>
+		<defName>KiteShield_CrossInvert</defName>
+		<overrideLabel>kite shield</overrideLabel>
+		<graphicData>
+			<texPath>Apparel/Shield/Kite/Kite_CrossInvert</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingStyleDef>
+  
+	<ThingStyleDef>
+		<defName>KiteShield_CrossWhite</defName>
+		<overrideLabel>kite shield</overrideLabel>
+		<graphicData>
+			<texPath>Apparel/Shield/Kite/Kite_CrossWhite</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingStyleDef>
+  
+	<ThingStyleDef>
+		<defName>KiteShield_CrossZigZagDark</defName>
+		<overrideLabel>kite shield</overrideLabel>
+		<graphicData>
+			<texPath>Apparel/Shield/Kite/Kite_CrossZigzagDark</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingStyleDef>
+	
+	<ThingStyleDef>
+		<defName>KiteShield_CrossZigZagWhite</defName>
+		<overrideLabel>kite shield</overrideLabel>
+		<graphicData>
+			<texPath>Apparel/Shield/Kite/Kite_CrossZigzagWhite</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingStyleDef>
+	
+	<ThingStyleDef>
+		<defName>KiteShield_SwirlDark</defName>
+		<overrideLabel>kite shield</overrideLabel>
+		<graphicData>
+			<texPath>Apparel/Shield/Kite/Kite_SwirlDark</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingStyleDef>
+	
+	<ThingStyleDef>
+		<defName>KiteShield_SwirlWhite</defName>
+		<overrideLabel>kite shield</overrideLabel>
+		<graphicData>
+			<texPath>Apparel/Shield/Kite/Kite_SwirlDark</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingStyleDef>
+  
+	
+
+</Defs>

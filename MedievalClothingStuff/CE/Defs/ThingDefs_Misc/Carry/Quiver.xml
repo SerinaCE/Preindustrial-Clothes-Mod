@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--Quiver-->
+  <ThingDef ParentName="ApparelCarryGearBase">
+    <defName>TC_Quiver</defName>
+    <label>quiver</label>
+    <description>An archer's quiver, hung at the hip for comfortable use, fits many arrows.</description>
+    <graphicData>
+      <texPath>Apparel/Carry/Quiver/Quiver</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+      <recipeUsers>
+        <li>HandTailoringBench</li>
+        <li>ElectricTailoringBench</li>
+      </recipeUsers>
+		</recipeMaker>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1</Mass>
+      <Bulk>5</Bulk>
+      <WornBulk>0</WornBulk>
+      <EquipDelay>3.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <CarryBulk>15</CarryBulk>
+      <ReloadSpeed>0.1</ReloadSpeed>
+    </equippedStatOffsets>
+    <costStuffCount>30</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Webbing</li>
+      </layers>
+      <tags>
+        <li>Neolithic</li>
+				<li>MedievalMilitary</li>
+				<li>MedievalArmorDecent</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">Royal</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier2</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <wornGraphicPath>Apparel/Carry/Quiver/Quiver</wornGraphicPath>
+    </apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
+</Defs>

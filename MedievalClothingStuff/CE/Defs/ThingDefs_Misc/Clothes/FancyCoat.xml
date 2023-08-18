@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>TC_FancyCoat</defName>
+		<label>fancy furcoat</label>
+		<description>A cloak</description>
+		<graphicData>
+			<texPath>Apparel/Clothes/FancyCoatPlain/FancyCoatPlain</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<possessionCount>1</possessionCount>
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
+		</recipeMaker>
+		<smeltable>false</smeltable>
+		<techLevel>Medieval</techLevel>
+		<costList>
+			<Gold>2</Gold>
+		</costList>
+		<costStuffCount>70</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<equippedStatOffsets>
+      <SocialImpact>0.2</SocialImpact>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
+		</equippedStatOffsets>
+		<randomStyleChance>0.6</randomStyleChance>
+		<randomStyle>
+			<li>
+				<styleDef>TC_FancyCoat_Flowers</styleDef>
+			</li>
+			<li>
+				<styleDef>TC_FancyCoat_Diamonds</styleDef>
+			</li>
+		</randomStyle>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>15000</WorkToMake>
+			<Bulk>3</Bulk>
+			<WornBulk>0.1</WornBulk>
+			<Mass>2</Mass>
+			<StuffEffectMultiplierArmor>8</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>1.6</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>ApparelMisc</li>
+		</thingCategories>
+		<apparel>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
+			<bodyPartGroups>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/Clothes/FancyCoatPlain/FancyCoatPlain</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Webbing</li>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>Medieval</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">Royal</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier2</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier5</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier6</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier7</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<tradeTags>
+			<li>Clothing</li>
+		</tradeTags>
+	</ThingDef>
+	
+</Defs>
