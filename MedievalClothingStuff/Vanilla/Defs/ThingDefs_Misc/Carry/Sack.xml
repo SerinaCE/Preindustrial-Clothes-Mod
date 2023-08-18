@@ -9,7 +9,7 @@
     <description>Medium sized bag held tied with straps, slung over one's back.</description>
     <techLevel>Neolithic</techLevel>
     <graphicData>
-      <texPath>Apparel/Carry/BasketPack/BasketPack</texPath>
+      <texPath>Apparel/Carry/Sack/Sack</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -49,7 +49,7 @@
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
-      <wornGraphicPath>Apparel/Carry/BasketPack/BasketPack</wornGraphicPath>
+      <wornGraphicPath>Apparel/Carry/Sack/Sack</wornGraphicPath>
       <wornGraphicData>
       <renderUtilityAsPack>true</renderUtilityAsPack>
         <east>
