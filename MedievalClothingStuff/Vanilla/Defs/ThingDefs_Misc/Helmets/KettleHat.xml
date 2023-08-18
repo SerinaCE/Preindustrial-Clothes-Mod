@@ -5,7 +5,7 @@
 		<label>kettle hat</label>
 		<description>Simple steel helmet with a wide brim, covering the top of the head, leaveing good visibility.</description>
 		<graphicData>
-			<texPath>Apparel/Helmets/Nasal/Nasal</texPath>
+			<texPath>Apparel/Helmets/KettleHat/KettleHat</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<possessionCount>1</possessionCount>
@@ -38,7 +38,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/Helmets/Nasal/Nasal</wornGraphicPath>
+			<wornGraphicPath>Apparel/Helmets/KettleHat/KettleHat</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>

@@ -63,8 +63,8 @@
 		
 	<ThingDef ParentName="DressBase">
 		<defName>TC_KidDress</defName>
-		<label>kid's cloak</label>
-		<description>A cloak</description>
+		<label>kid's dress</label>
+		<description>A dress</description>
 		<graphicData>
 			<texPath>Apparel/Clothes/KidDress/KidDress</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
