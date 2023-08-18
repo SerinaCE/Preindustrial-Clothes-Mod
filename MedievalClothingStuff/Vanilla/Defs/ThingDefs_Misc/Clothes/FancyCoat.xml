@@ -56,7 +56,6 @@
 			<wornGraphicPath>Apparel/Clothes/FancyCoatPlain/FancyCoatPlain</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
-				<li>Webbing</li>
 				<li>Shell</li>
 			</layers>
 			<tags>

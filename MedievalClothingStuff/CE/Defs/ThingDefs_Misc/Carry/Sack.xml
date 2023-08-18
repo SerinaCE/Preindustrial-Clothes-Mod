@@ -15,8 +15,8 @@
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
       <WorkToMake>12000</WorkToMake>
-      <Mass>2.5</Mass>
-      <Bulk>8</Bulk>
+      <Mass>0.5</Mass>
+      <Bulk>1</Bulk>
     </statBases>
     <equippedStatOffsets>
       <CarryBulk>30</CarryBulk>

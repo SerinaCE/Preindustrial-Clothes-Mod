@@ -19,12 +19,11 @@
 		<techLevel>Medieval</techLevel>
 		<costStuffCount>65</costStuffCount>
 		<stuffCategories>
-			<li>Steeled</li>
+			<li>Metallic</li>
 		</stuffCategories>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
 			<WorkToMake>8500</WorkToMake>
-			<Bulk>6</Bulk>
 			<Mass>3.2</Mass>
 			<StuffEffectMultiplierArmor>3.3</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.12</StuffEffectMultiplierInsulation_Cold>
@@ -32,7 +31,7 @@
 			<EquipDelay>1</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<AimingAccuracy>-0.5</AimingAccuracy>
+      <AimingDelayFactor>+0.3</AimingDelayFactor>
 			<MeleeHitChance>-2.2</MeleeHitChance>
 		</equippedStatOffsets>
 		<thingCategories>
@@ -46,8 +45,6 @@
 			<wornGraphicPath>Apparel/Helmets/Bascinet/Bascinet</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
-				<li>OnHead</li>
-				<li>StrappedHead</li>
 			</layers>
 			<tags>
 				<li>MedievalMilitary</li>
@@ -60,36 +57,6 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
-		<modExtensions>
-			<li Class="CombatExtended.PartialArmorExt">
-				<stats>
-					<li>
-						<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
-						<parts>
-							<li>Eye</li>
-						</parts>
-					</li>
-					<li>
-						<ArmorRating_Blunt>0.75</ArmorRating_Blunt>
-						<parts>
-							<li>Eye</li>
-						</parts>
-					</li>
-					<li>
-						<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
-						<parts>
-							<li>Neck</li>
-						</parts>
-					</li>
-					<li>
-						<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
-						<parts>
-							<li>Neck</li>
-						</parts>
-					</li>
-				</stats>
-			</li>
-		</modExtensions>
 		<tradeTags>
 			<li>Clothing</li>
 			<li>Armor</li>

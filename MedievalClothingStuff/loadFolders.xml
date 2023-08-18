@@ -5,5 +5,6 @@
 		<li>/</li>
 		<li IfModActive="CETeam.CombatExtended">CE</li>
 		<li IfModNotActive="CETeam.CombatExtended">Vanilla</li>
+		<li IfModNotActive="CETeam.CombatExtended" IfModActive="oskarpotocki.vanillafactionsexpanded.core">VEF</li>
 	</v1.4>
 </loadFolders>

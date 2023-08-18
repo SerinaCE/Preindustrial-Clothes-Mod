@@ -19,7 +19,7 @@
       <Bulk>8</Bulk>
     </statBases>
     <equippedStatOffsets>
-      <CarryBulk>40</CarryBulk>
+      <CarryBulk>45</CarryBulk>
 			<MeleeDodgeChance>-0.15</MeleeDodgeChance>
     </equippedStatOffsets>
     <costList>

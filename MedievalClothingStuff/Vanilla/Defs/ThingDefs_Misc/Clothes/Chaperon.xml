@@ -42,7 +42,6 @@
 			<wornGraphicPath>Apparel/Clothes/Chaperon/Chaperon</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
-				<li>OnHead</li>
 			</layers>
 			<tags>
 				<li>Medieval</li>

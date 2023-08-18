@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- ==================== Bag ==================== -->
+  <!--Quiver-->
   <ThingDef ParentName="ApparelCarryGearBase">
-    <defName>TC_Bag</defName>
-    <label>bag</label>
-    <description>Shoulder sling puch.</description>
+    <defName>TC_Quiver</defName>
+    <label>quiver</label>
+    <description>An archer's quiver, hung at the hip for comfortable use, fits many arrows.</description>
     <graphicData>
-      <texPath>Apparel/Carry/Bag/Bag</texPath>
+      <texPath>Apparel/Carry/Quiver/Quiver</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
 		<recipeMaker>
 			<researchPrerequisite>ComplexClothing</researchPrerequisite>
@@ -24,17 +25,15 @@
       <MaxHitPoints>120</MaxHitPoints>
       <WorkToMake>5000</WorkToMake>
       <Mass>1</Mass>
-      <Bulk>2</Bulk>
-      <WornBulk>0</WornBulk>
       <EquipDelay>3.5</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <CarryBulk>18</CarryBulk>
+      <AimingDelayFactor>-0.05</AimingDelayFactor>
+      <CarryingCapacity>20</CarryingCapacity>
     </equippedStatOffsets>
     <costStuffCount>30</costStuffCount>
     <stuffCategories>
       <li>Leathery</li>
-      <li>Fabric</li>
     </stuffCategories>
     <apparel>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
@@ -43,19 +42,21 @@
         <li>Torso</li>
       </bodyPartGroups>
       <layers>
-        <li>Webbing</li>
+        <li>VFEC_OuterShell</li>
       </layers>
       <tags>
-				<li>Medieval</li>
-        <li>MedievalMilitary</li>
+        <li>Neolithic</li>
+				<li>MedievalMilitary</li>
+				<li>MedievalArmorDecent</li>
         <li MayRequire="Ludeon.RimWorld.Royalty">Royal</li>
-        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier2</li>    
+        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier2</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
-      <wornGraphicPath>Apparel/Carry/Bag/Bag</wornGraphicPath>
+      <wornGraphicPath>Apparel/Carry/Quiver/Quiver</wornGraphicPath>
     </apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
-	
+
 </Defs>

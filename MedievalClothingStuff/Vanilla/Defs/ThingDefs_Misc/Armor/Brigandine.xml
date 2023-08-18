@@ -22,7 +22,7 @@
 		</costList>
 		<costStuffCount>60</costStuffCount>
 		<stuffCategories>
-			<li>Steeled</li>
+			<li>Metallic</li>
 		</stuffCategories>
 		<equippedStatOffsets>
 			<MeleeDodgeChance>-0.04</MeleeDodgeChance>
@@ -58,42 +58,6 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
-		<modExtensions>
-			<li Class="CombatExtended.PartialArmorExt">
-				<stats>
-					<li>
-						<ArmorRating_Blunt>0.80</ArmorRating_Blunt>
-						<parts>
-							<li>Torso</li>
-						</parts>
-					</li>
-					<li>
-						<ArmorRating_Sharp>0.40</ArmorRating_Sharp>
-						<parts>
-							<li>Neck</li>
-						</parts>
-					</li>
-					<li>
-						<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
-						<parts>
-							<li>Neck</li>
-						</parts>
-					</li>
-					<li>
-						<ArmorRating_Sharp>0.60</ArmorRating_Sharp>
-						<parts>
-							<li>Shoulder</li>
-						</parts>
-					</li>
-					<li>
-						<ArmorRating_Blunt>0.60</ArmorRating_Blunt>
-						<parts>
-							<li>Shoulder</li>
-						</parts>
-					</li>
-				</stats>
-			</li>
-		</modExtensions>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
 		<tradeTags>
 			<li>Clothing</li>

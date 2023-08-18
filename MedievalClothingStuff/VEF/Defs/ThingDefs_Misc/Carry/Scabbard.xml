@@ -28,7 +28,7 @@
       <EquipDelay>3.5</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <CarryWeight>6</CarryWeight>
+      <CarryingCapacity>15</CarryingCapacity>
     </equippedStatOffsets>
     <costStuffCount>20</costStuffCount>
     <stuffCategories>
@@ -44,7 +44,7 @@
         <li>Torso</li>
       </bodyPartGroups>
       <layers>
-        <li>Webbing</li>
+        <li>VFEC_OuterShell</li>
       </layers>
       <tags>        
 				<li>Medieval</li>

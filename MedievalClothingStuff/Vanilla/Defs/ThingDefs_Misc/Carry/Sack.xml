@@ -15,10 +15,10 @@
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
       <WorkToMake>12000</WorkToMake>
-      <Mass>2.5</Mass>
+      <Mass>0.5</Mass>
     </statBases>
     <equippedStatOffsets>
-      <CarryWeight>12</CarryWeight>
+      <CarryingCapacity>30</CarryingCapacity>
     </equippedStatOffsets>
     <costStuffCount>30</costStuffCount>
     <stuffCategories>
@@ -40,7 +40,7 @@
         <li>Shoulders</li>
       </bodyPartGroups>
       <layers>
-        <li>Backpack</li>
+        <li>Belt</li>
       </layers>
       <tags>
         <li>Neolithic</li>
