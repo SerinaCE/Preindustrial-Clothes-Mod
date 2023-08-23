@@ -12,9 +12,10 @@
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<possessionCount>1</possessionCount>
-		<costList>
-			<WoodLog>100</WoodLog>
-		</costList>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
 		<recipeMaker>
 			<researchPrerequisite>Smithing</researchPrerequisite>
 			<recipeUsers>
@@ -25,7 +26,7 @@
 		<statBases>
 			<WorkToMake>80000</WorkToMake>
 			<MaxHitPoints>160</MaxHitPoints>
-			<StuffEffectMultiplierArmor>1.5</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierArmor>13</StuffEffectMultiplierArmor>
 			<Mass>27</Mass>
 			<Bulk>15</Bulk>
 			<WornBulk>1</WornBulk>

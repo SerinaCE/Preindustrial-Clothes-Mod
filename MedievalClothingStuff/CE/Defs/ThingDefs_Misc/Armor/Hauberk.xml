@@ -18,18 +18,20 @@
 		</recipeMaker>
 		<techLevel>Medieval</techLevel>
 		<costList>
-			<Steel>90</Steel>
 			<Cloth>45</Cloth>
 		</costList>
-		<equippedStatOffsets></equippedStatOffsets>
+		<stuffCategories>
+			<li>Steeled</li>
+		</stuffCategories>
+		<costStuffCount>90</costStuffCount>
+		<equippedStatOffsets/>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToMake>20000</WorkToMake>
 			<Bulk>15</Bulk>
 			<WornBulk>3</WornBulk>
 			<Mass>11</Mass>
-			<ArmorRating_Sharp>1.7</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.7</ArmorRating_Blunt>
+			<StuffEffectMultiplierArmor>1.7</StuffEffectMultiplierArmor>
 			<EquipDelay>5</EquipDelay>
 		</statBases>
 		<thingCategories>
@@ -50,24 +52,39 @@
 				<li>MedievalMilitary</li>
 				<li>MedievalArmorBasic</li>
 				<li>MedievalArmorDecent</li>
-        <li MayRequire="Ludeon.RimWorld.Royalty">Royal</li>
-        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier2</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">Royal</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier2</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
+		<modExtensions>
+			<li Class="CombatExtended.PartialArmorExt">
+				<stats>
+					<li>
+						<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+						<parts>
+							<li>Torso</li>
+							<li>Shoulder</li>
+							<li>Arm</li>
+							<li>Leg</li>
+						</parts>
+					</li>
+				</stats>
+			</li>
+		</modExtensions>
 		<tradeTags>
 			<li>Clothing</li>
 			<li>Armor</li>
 		</tradeTags>
-    <colorGenerator Class="ColorGenerator_Options">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>(0.50,0.50,0.50)</only>
-        </li>
-      </options>
-    </colorGenerator>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.50,0.50,0.50)</only>
+				</li>
+			</options>
+		</colorGenerator>
 	</ThingDef>
 </Defs>
