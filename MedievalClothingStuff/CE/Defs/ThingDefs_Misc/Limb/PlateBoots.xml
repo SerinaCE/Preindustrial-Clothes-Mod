@@ -20,7 +20,7 @@
 		<stuffCategories>
 			<li>Steeled</li>
 		</stuffCategories>
-		<costStuffCount>30</costStuffCount>
+		<costStuffCount>25</costStuffCount>
 		<equippedStatOffsets></equippedStatOffsets>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
