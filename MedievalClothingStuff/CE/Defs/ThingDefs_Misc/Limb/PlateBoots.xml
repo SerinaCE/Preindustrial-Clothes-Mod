@@ -17,9 +17,10 @@
 			</skillRequirements>
 		</recipeMaker>
 		<techLevel>Medieval</techLevel>
-		<costList>
-			<Steel>20</Steel>
-		</costList>
+		<stuffCategories>
+			<li>Steeled</li>
+		</stuffCategories>
+		<costStuffCount>25</costStuffCount>
 		<equippedStatOffsets></equippedStatOffsets>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -27,8 +28,7 @@
 			<Bulk>2</Bulk>
 			<WornBulk>0.5</WornBulk>
 			<Mass>1</Mass>
-			<ArmorRating_Sharp>2</ArmorRating_Sharp>
-			<ArmorRating_Blunt>3</ArmorRating_Blunt>
+			<StuffEffectMultiplierArmor>2</StuffEffectMultiplierArmor>
 			<EquipDelay>1</EquipDelay>
 		</statBases>
 		<thingCategories>

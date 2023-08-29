@@ -17,9 +17,10 @@
 			</skillRequirements>
 		</recipeMaker>
 		<techLevel>Medieval</techLevel>
-		<costList>
-			<Steel>20</Steel>
-		</costList>
+		<stuffCategories>
+			<li>Steeled</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
 		<equippedStatOffsets></equippedStatOffsets>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -27,8 +28,7 @@
 			<Bulk>2</Bulk>
 			<WornBulk>0.5</WornBulk>
 			<Mass>0.8</Mass>
-			<ArmorRating_Sharp>1.6</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.6</ArmorRating_Blunt>
+			<StuffEffectMultiplierArmor>1.7</StuffEffectMultiplierArmor>
 			<EquipDelay>1</EquipDelay>
 		</statBases>
 		<thingCategories>
@@ -52,6 +52,18 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
+		<modExtensions>
+			<li Class="CombatExtended.PartialArmorExt">
+				<stats>
+					<li>
+						<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+						<parts>
+							<li>Foot</li>
+						</parts>
+					</li>
+				</stats>
+			</li>
+		</modExtensions>
 		<tradeTags>
 			<li>Clothing</li>
 			<li>Armor</li>
