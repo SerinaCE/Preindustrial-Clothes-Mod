@@ -24,13 +24,13 @@
 			<li>Metallic</li>
 		</stuffCategories>
 		<equippedStatOffsets>
-			<MeleeDodgeChance>-0.15</MeleeDodgeChance>
+			 <MoveSpeed>-0.8</MoveSpeed>
 		</equippedStatOffsets>
 		<statBases>
 			<MaxHitPoints>350</MaxHitPoints>
 			<WorkToMake>40000</WorkToMake>
 			<Mass>18</Mass>
-			<StuffEffectMultiplierArmor>2.7</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierArmor>0.80</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.12</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>10</EquipDelay>
