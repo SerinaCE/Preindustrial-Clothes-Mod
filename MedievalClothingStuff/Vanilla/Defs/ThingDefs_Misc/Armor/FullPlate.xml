@@ -22,13 +22,13 @@
 			<li>Metallic</li>
 		</stuffCategories>
 		<equippedStatOffsets>
-			<MeleeDodgeChance>-0.15</MeleeDodgeChance>
+			<MoveSpeed>-1.2</MoveSpeed>
 		</equippedStatOffsets>
 		<statBases>
 			<MaxHitPoints>400</MaxHitPoints>
 			<WorkToMake>50000</WorkToMake>
 			<Mass>18</Mass>
-			<StuffEffectMultiplierArmor>3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierArmor>0.92</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.12</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>10</EquipDelay>
@@ -81,7 +81,7 @@
 		</costList>
 		<statBases>
 			<WorkToMake>53000</WorkToMake>
-			<StuffEffectMultiplierArmor>3.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierArmor>0.92</StuffEffectMultiplierArmor>
 		</statBases>
 		<apparel>
 			<wornGraphicPath>Apparel/Armor/PlateArmorJupon/PlateArmorJupon</wornGraphicPath>
@@ -116,7 +116,7 @@
 		</costList>
 		<statBases>
 			<WorkToMake>70000</WorkToMake>
-			<StuffEffectMultiplierArmor>3.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierArmor>0.92</StuffEffectMultiplierArmor>
 		</statBases>
 		<apparel>
 			<wornGraphicPath>Apparel/Armor/PlateArmorJuponPrestige/PlateArmorJuponPrestige</wornGraphicPath>

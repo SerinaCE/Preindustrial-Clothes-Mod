@@ -21,12 +21,14 @@
 			<li>Metallic</li>
 		</stuffCategories>
 		<costStuffCount>30</costStuffCount>
-		<equippedStatOffsets></equippedStatOffsets>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.1</MoveSpeed>
+		</equippedStatOffsets>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToMake>5000</WorkToMake>
 			<Mass>0.7</Mass>
-			<StuffEffectMultiplierArmor>2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierArmor>0.40</StuffEffectMultiplierArmor>
 			<EquipDelay>1</EquipDelay>
 		</statBases>
 		<thingCategories>

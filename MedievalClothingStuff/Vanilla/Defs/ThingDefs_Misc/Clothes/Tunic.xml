@@ -24,7 +24,7 @@
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToMake>5000</WorkToMake>
 			<Mass>0.75</Mass>
-			<StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.45</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1</EquipDelay>

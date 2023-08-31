@@ -24,12 +24,16 @@
 			<li>Metallic</li>
 		</stuffCategories>
 		<costStuffCount>90</costStuffCount>
-		<equippedStatOffsets></equippedStatOffsets>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.5</MoveSpeed>
+		</equippedStatOffsets>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToMake>20000</WorkToMake>
 			<Mass>11</Mass>
-			<StuffEffectMultiplierArmor>1.7</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierArmor>0.60</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>5</EquipDelay>
 		</statBases>
 		<thingCategories>
@@ -50,8 +54,8 @@
 				<li>MedievalMilitary</li>
 				<li>MedievalArmorBasic</li>
 				<li>MedievalArmorDecent</li>
-        <li MayRequire="Ludeon.RimWorld.Royalty">Royal</li>
-        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier2</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">Royal</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier2</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -61,13 +65,13 @@
 			<li>Clothing</li>
 			<li>Armor</li>
 		</tradeTags>
-    <colorGenerator Class="ColorGenerator_Options">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>(0.50,0.50,0.50)</only>
-        </li>
-      </options>
-    </colorGenerator>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.50,0.50,0.50)</only>
+				</li>
+			</options>
+		</colorGenerator>
 	</ThingDef>
 </Defs>

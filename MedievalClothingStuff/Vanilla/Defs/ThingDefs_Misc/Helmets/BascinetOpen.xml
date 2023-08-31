@@ -30,7 +30,9 @@
 			<StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1</EquipDelay>
 		</statBases>
-		<equippedStatOffsets />
+		<equippedStatOffsets>
+			<ShootingAccuracyPawn>-3</ShootingAccuracyPawn>
+		</equippedStatOffsets>
 		<thingCategories>
 			<li>ApparelArmor</li>
 		</thingCategories>

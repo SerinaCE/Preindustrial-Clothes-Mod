@@ -25,13 +25,13 @@
 			<MaxHitPoints>140</MaxHitPoints>
 			<WorkToMake>5500</WorkToMake>
 			<Mass>2.5</Mass>
-			<StuffEffectMultiplierArmor>3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierArmor>1.02</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.12</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<MeleeHitChance>-2.5</MeleeHitChance>
+			<ShootingAccuracyPawn>-3</ShootingAccuracyPawn>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>ApparelArmor</li>
