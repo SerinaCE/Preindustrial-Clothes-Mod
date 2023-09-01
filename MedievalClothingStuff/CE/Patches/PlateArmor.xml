@@ -34,7 +34,7 @@
 						<Bulk>70</Bulk>
 						<WornBulk>6</WornBulk>
 						<Mass>18</Mass>
-						<StuffEffectMultiplierArmor>3</StuffEffectMultiplierArmor>
+						<StuffEffectMultiplierArmor>3.2</StuffEffectMultiplierArmor>
 						<StuffEffectMultiplierInsulation_Cold>0.12</StuffEffectMultiplierInsulation_Cold>
 						<StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
 						<EquipDelay>10</EquipDelay>
@@ -58,10 +58,12 @@
 							<li>Shell</li>
 						</layers>
 						<tags>
-							<li>MedievalMilitary</li>
 							<li>MedievalArmorDecent</li>
 							<li MayRequire="Ludeon.RimWorld.Royalty">Royal</li>
 							<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier2</li>
+							<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier5</li>
+							<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier6</li>
+							<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier7</li>
 						</tags>
 						<defaultOutfitTags>
 							<li>Soldier</li>
@@ -139,10 +141,6 @@
 					</tradeTags>
 				</ThingDef>
 		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationRemove">
-		<xpath>/Defs/ThingDef[defName="TC_PlateArmor"]</xpath>
 	</Operation>
 	
 </Patch>

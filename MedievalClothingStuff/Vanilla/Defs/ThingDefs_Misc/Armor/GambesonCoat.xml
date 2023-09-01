@@ -42,6 +42,7 @@
 				<li>Neck</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Apparel/Armor/GambesonCoat/GambesonCoat</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
 			</layers>

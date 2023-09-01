@@ -32,7 +32,7 @@
 			<Bulk>70</Bulk>
 			<WornBulk>6</WornBulk>
 			<Mass>18</Mass>
-			<StuffEffectMultiplierArmor>2.7</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierArmor>3</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.12</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>10</EquipDelay>

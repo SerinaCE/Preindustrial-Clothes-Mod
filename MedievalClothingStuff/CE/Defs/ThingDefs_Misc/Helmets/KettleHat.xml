@@ -17,7 +17,7 @@
 			</skillRequirements>
 		</recipeMaker>
 		<techLevel>Medieval</techLevel>
-		<costStuffCount>45</costStuffCount>
+		<costStuffCount>40</costStuffCount>
 		<stuffCategories>
 			<li>Steeled</li>
 		</stuffCategories>
@@ -25,8 +25,8 @@
 			<MaxHitPoints>135</MaxHitPoints>
 			<WorkToMake>4500</WorkToMake>
 			<Bulk>6</Bulk>
-			<Mass>2</Mass>
-			<StuffEffectMultiplierArmor>2.7</StuffEffectMultiplierArmor>
+			<Mass>1.7</Mass>
+			<StuffEffectMultiplierArmor>2.5</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.12</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1</EquipDelay>

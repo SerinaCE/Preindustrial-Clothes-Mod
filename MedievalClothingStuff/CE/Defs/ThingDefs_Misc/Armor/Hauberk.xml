@@ -31,7 +31,7 @@
 			<Bulk>15</Bulk>
 			<WornBulk>3</WornBulk>
 			<Mass>11</Mass>
-			<StuffEffectMultiplierArmor>1.7</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierArmor>1.6</StuffEffectMultiplierArmor>
 			<EquipDelay>5</EquipDelay>
 		</statBases>
 		<thingCategories>

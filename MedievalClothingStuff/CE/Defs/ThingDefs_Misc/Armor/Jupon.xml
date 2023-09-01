@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>TC_Jupon</defName>
+		<label>jupon</label>
+		<description>light padded jacket worn by knights their plate harness, for battlefield identification and protection from arrows spalling on their armor</description>
+		<graphicData>
+			<texPath>Apparel/Jupon/Jupon/Jupon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>      
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<possessionCount>1</possessionCount>
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
+		</recipeMaker>
+		<smeltable>false</smeltable>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>70</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToMake>5000</WorkToMake>
+			<Bulk>2</Bulk>
+			<WornBulk>0</WornBulk>
+			<Mass>1.5</Mass>
+			<StuffEffectMultiplierArmor>12</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+    <equippedStatOffsets>
+      <CarryBulk>20</CarryBulk>
+    </equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<randomStyleChance>0.6</randomStyleChance>
+		<randomStyle>
+			<li>
+				<styleDef>TC_Jupon_Half</styleDef>
+			</li>
+			<li>
+				<styleDef>TC_Jupon_Quarter</styleDef>
+			</li>	
+			<li>
+				<styleDef>TC_Jupon_Stripes</styleDef>
+			</li>
+		</randomStyle>
+		<apparel>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/Clothes/Surcoat/Surcoat</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Webbing</li>
+			</layers>
+			<tags>
+				<li>MedievalArmorDecent</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">Royal</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier2</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier5</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier6</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">RoyalTier7</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<tradeTags>
+			<li>Clothing</li>
+			<li>Armor</li>
+		</tradeTags>
+	</ThingDef>
+</Defs>

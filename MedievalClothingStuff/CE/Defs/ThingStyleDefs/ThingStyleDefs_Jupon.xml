@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+	<ThingStyleDef>
+		<defName>TC_Jupon_Half</defName>
+		<wornGraphicPath>Apparel/Jupon/JuponHalf/JuponHalf</wornGraphicPath>
+		<graphicData>
+			<texPath>Apparel/Jupon/JuponHalf/JuponHalf</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+  
+	<ThingStyleDef>
+		<defName>TC_Jupon_Quarter</defName>
+		<wornGraphicPath>Apparel/Jupon/JuponQuarter/JuponQuarter</wornGraphicPath>
+		<graphicData>
+			<texPath>Apparel/Jupon/JuponQuarter/JuponQuarter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	
+	<ThingStyleDef>
+		<defName>TC_Jupon_Stripes</defName>
+		<wornGraphicPath>Apparel/Jupon/JuponStripes/JuponStripes</wornGraphicPath>
+		<graphicData>
+			<texPath>Apparel/Jupon/JuponStripes/JuponStripes</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+  
+
+</Defs>

@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>[Beta] Tasty Medieval Apparel Bloatpack</name>
+	<name>Tastier Armory - Medieval European Armors</name>
 	<author>al9000</author>
 	<supportedVersions>
 	  <li>1.4</li>
 	</supportedVersions>
-		<packageId>al9000.medievalclothes</packageId>
+		<packageId>al9000.medievaleuropeanarmors</packageId>
 	<description>stuff</description>
 	<loadAfter>
 		<li>CETeam.CombatExtended</li>

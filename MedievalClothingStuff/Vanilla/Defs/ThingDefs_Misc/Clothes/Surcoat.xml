@@ -3,7 +3,7 @@
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>TC_Surcoat</defName>
 		<label>surcoat</label>
-		<description>A surcoat</description>
+		<description>A surcoat worn by knights over maille, for protection against the elements and identifications on the battlefield</description>
 		<graphicData>
 			<texPath>Apparel/Clothes/Surcoat/Surcoat</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -14,7 +14,7 @@
 		</recipeMaker>
 		<smeltable>false</smeltable>
 		<techLevel>Medieval</techLevel>
-		<costStuffCount>60</costStuffCount>
+		<costStuffCount>50</costStuffCount>
 		<stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>
@@ -26,8 +26,8 @@
 			<WorkToMake>5000</WorkToMake>
 			<Mass>1</Mass>
 			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1</EquipDelay>
 		</statBases>
 		<thingCategories>

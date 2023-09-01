@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<ThingDef ParentName="ArmorSmithableBase">
-		<defName>TC_Sallet</defName>
+	<ThingDef ParentName="ArmorSmithableBase" Name="TC_Sallet_Visor" Abstract="True">
 		<label>full sallet</label>
 		<description>Sallet helmet with foldable visor and bevor. It's modularity made it very popular among knights and anyone who could afford it.</description>
-		<graphicData>
-			<texPath>Apparel/Helmets/Sallet/Sallet</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
 		<possessionCount>1</possessionCount>
 		<recipeMaker>
 			<researchPrerequisite>PlateArmor</researchPrerequisite>
@@ -31,10 +26,6 @@
 			<StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1</EquipDelay>
 		</statBases>
-		<equippedStatOffsets>
-			<AimingAccuracy>-0.4</AimingAccuracy>
-			<MeleeHitChance>-2</MeleeHitChance>
-		</equippedStatOffsets>
 		<thingCategories>
 			<li>ApparelArmor</li>
 		</thingCategories>
@@ -43,7 +34,6 @@
 				<li>FullHead</li>
 				<li>Neck</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/Helmets/Sallet/Sallet</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 				<li>OnHead</li>
@@ -62,6 +52,33 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
+		<tradeTags>
+			<li>Clothing</li>
+			<li>Armor</li>
+		</tradeTags>
+	</ThingDef>
+
+
+	<ThingDef ParentName="TC_Sallet_Visor">
+		<defName>TC_Sallet</defName>
+		<graphicData>
+			<texPath>Apparel/Helmets/Sallet/Sallet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<equippedStatOffsets>
+			<AimingAccuracy>-0.4</AimingAccuracy>
+			<MeleeHitChance>-2</MeleeHitChance>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Apparel/Helmets/Sallet/Sallet</wornGraphicPath>
+		</apparel>
+		<comps>
+			<li Class="VanillaApparelExpanded.CompProperties_SwitchApparel" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
+				<SwitchTo>TC_Sallet_UP</SwitchTo>
+				<graphicPath>Apparel/Helmets/Sallet/Sallet_close</graphicPath>
+				<Label>open visor</Label>
+			</li>
+		</comps>
 		<modExtensions>
 			<li Class="CombatExtended.PartialArmorExt">
 				<stats>
@@ -104,10 +121,79 @@
 				</stats>
 			</li>
 		</modExtensions>
-		<tradeTags>
-			<li>Clothing</li>
-			<li>Armor</li>
-		</tradeTags>
 	</ThingDef>
-
+	
+	<ThingDef ParentName="TC_Sallet_Visor">
+		<defName>TC_Sallet_UP</defName>
+		<graphicData>
+			<texPath>Apparel/Helmets/Sallet/Sallet_UP</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<recipeMaker Inherit="False" />
+		<apparel>
+			<wornGraphicPath>Apparel/Helmets/Sallet/Sallet_open</wornGraphicPath>
+		</apparel>
+		<comps>
+			<li Class="VanillaApparelExpanded.CompProperties_SwitchApparel" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
+				<SwitchTo>TC_Sallet</SwitchTo>
+				<graphicPath>Apparel/Helmets/Sallet/Sallet</graphicPath>
+				<Label>close visor</Label>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="CombatExtended.PartialArmorExt">
+				<stats>
+					<li>
+						<ArmorRating_Sharp>0</ArmorRating_Sharp>
+						<parts>
+							<li>Eye</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Blunt>0</ArmorRating_Blunt>
+						<parts>
+							<li>Eye</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Sharp>0</ArmorRating_Sharp>
+						<parts>
+							<li>Nose</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Blunt>0</ArmorRating_Blunt>
+						<parts>
+							<li>Nose</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+						<parts>
+							<li>Jaw</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+						<parts>
+							<li>Jaw</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+						<parts>
+							<li>Neck</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+						<parts>
+							<li>Neck</li>
+						</parts>
+					</li>
+				</stats>
+			</li>
+		</modExtensions>
+	</ThingDef>
+		
 </Defs>
